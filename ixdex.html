@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <style>
+        HTML {
+            height: 100%;
+            background-color: #000;
+        }
+        DIV {
+            position: absolute;
+            padding: 50%;
+            top: 0;
+            right: 10;
+            bottom: 0;
+            left: 40;
+            margin: 100px
+            background-color black;
+            background-image: url(https://img-fotki.yandex.ru/get/3111/5091629.a2/0_85f54_7fb37e6_orig),
+            linear-gradient(45deg, white 50%, transparent 50%),
+            linear-gradient(-45deg, white 50%, transparent 50%);
+            background-repeat: no-repeat, repeat, repeat;
+            background-position: 
+            50% -15%,
+            50% 50%,
+            50% 50%;
+            background-blend-mode:difference;
+            background-size: auto, 5em 5em, 5em 5em;
+            animation: move 1.90s infinite
+            ease-out;
+        }
+       @keyframes move {
+        50% {
+            background-position: 50px 500px;
+        }
+       } 
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div></div>
+</body>
+</html>
